@@ -1,0 +1,1 @@
+build --crosstool_top=//tools/arm_compiler:toolchain --cpu=armeabi-v7a --host_cpu=armeabi-v7a --compiler=gcc --action_env=BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1 --toolchain_resolution_debug
